@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+<title>CreateAThon</title>
+<link href="bootstrap.css" rel="stylesheet" type="text/css" />
+<asp:ContentPlaceHolder id="head" runat="server">
+</asp:ContentPlaceHolder>
+</head>
+
+<body>
+<div>
+<div class="header" style="background-color:Blue; height:235px;">
+<form id="form1" runat="server">
+<div class="container" style="background-color: Red; height:80px; margin-bottom:0.4%">
+<a href="Index.aspx"><img src="C:\Users\Sagar Anand\Downloads\13.jpg" style="height: 100%; margin-left:430px; width:200px;"></a>
+</div>
+<h1>********************<marquee direction="down" style="height:60px; margin-left:16px; margin-right:5px;">WELCOME TO HEALTHCARE SYSTEM</marquee>*******************</h1>
+<h4 style="margin-left:460px;">PROPER MANAGEMENT OF RECORDS</h4>
+<h4 style="margin-left:530px;">IN HEALTHCARE SYSTEM.....</h4>           
+</div>        
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+</form>
+</div>
+    
+</body>
+</html>
